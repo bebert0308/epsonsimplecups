@@ -9,6 +9,8 @@ To compile this on a raspberry pi, you will first need to install two cups dev p
 ```
 sudo apt-get install libcups2-dev
 sudo apt-get install libcupsimage2-dev
+git clone https://github.com/bebert0308/epsonsimplecups
+cd epsonsimplecups/
 sudo make
 sudo make install
 ```
